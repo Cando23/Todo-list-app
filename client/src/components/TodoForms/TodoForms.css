@@ -1,0 +1,80 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px #ccc;
+}
+
+.form input {
+    width: 300px;
+    height: 25px;
+    font-size: 17px;
+}
+
+.form label {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.file-container {
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+}
+
+.file-container label:hover {
+    margin: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(62, 116, 233);
+}
+
+.file-container img {
+    height: 45px;
+    width: 50px;
+}
+
+.file-container input[type=file]:focus+label {
+    text-decoration: underline;
+    color: rgb(62, 116, 233);
+}
+
+#file-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    position: absolute;
+    z-index: -10;
+}
+
+.form__btn {
+    margin: 20px 0;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(30, 30, 172);
+    border: 1px solid black;
+}
+
+.form__btn:hover {
+    cursor: pointer;
+    background-color: rgb(62, 116, 233);
+}

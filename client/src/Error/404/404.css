@@ -1,0 +1,7 @@
+.error-container{
+    background-image: url("../../assets/404.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}

@@ -1,0 +1,37 @@
+.header {
+    margin: 30px 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.header__wrapper {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__navigation{
+    position: absolute;
+    margin-left: 800px;
+}
+
+.header__text {
+    font-size: 30px;
+    font-weight: 1000;
+    font-style: oblique;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation__link {
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;
+}
+
+.navigation__link:hover {
+    color: red
+}

@@ -1,0 +1,33 @@
+.tools-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.edit-container {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.edit-container__text {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.edit-container__link-task{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 30, 172);
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    width: 60px;
+}
+.edit-container__link-task:hover {
+    cursor: pointer;
+    background-color: rgb(62, 116, 233);
+}

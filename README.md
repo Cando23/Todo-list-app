@@ -3,7 +3,6 @@
 - React/Redux
 - Express
 - MongoDb/Mongoose
-- Bcryptjs
 
 ### Functionality:
 - CRUD operations with tasks
